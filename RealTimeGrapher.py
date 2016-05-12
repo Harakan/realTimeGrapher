@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import time
 import random
 
-class PeachyGrapher():
+class RealTimeGrapher():
     def __init__(self,title='',xlabel='',ylabel='',graphsize=0,numlines=1,legend='',padding=0):
         self.graphsize=graphsize
         self.numlines=numlines
